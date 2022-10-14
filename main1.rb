@@ -1,6 +1,5 @@
 require './task1'
 
-obj = Prog.new
+obj = Prog.new gets.chomp.to_i
 
-obj.create_f
-obj.sort
+obj.exec
