@@ -3,11 +3,11 @@
 # class for generating random numbers
 class Rand
   def self.r_pos
-    (1..100).to_a.sample
+    rand(1..100)
   end
 
   def self.r_neg
-    (-100..-1).to_a.sample
+    rand(-100..-1)
   end
 end
 
